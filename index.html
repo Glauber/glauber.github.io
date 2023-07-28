@@ -1,106 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-1OYccka9EByiS23wvPFiYHBPRAgU91xYVFb8g8sen6vRiBI5Uko6+B87q8zPGUnA" crossorigin="anonymous">
-        <style>
-            li.experience{
-                width: 33%;
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin4IT - Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #000;
+        }
+
+        header {
+            background-color: #fbc02d;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fbc02d;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #fbc02d;
+            color: #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
             }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <header class="jumbotron">
-                <h1 class="display-3">Glauber R. da Silva</h1>
-                <p class="lead pl-2">MCSD App Builder, MCSD Web Apps, MCAD, SCRUM MASTER - PSM I</p>
-            </header>
-            
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Summary Profile</h3>
-                    <p class="pl-4">
-                        I am experienced .Net developer and I have been working with backend technologies like ASP.Net Web API, MVC and Web Forms accessing MS SQL Server databases. 
-                        <br/>
-                        Today I am working on projects that support technical international cooperation with systems to follow-up of technical cooperation projects, financial management, online flight reservation, website content management and software to support selecting people around the world to participate in training programs in Brazil.
-                    </p>
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Education</h3>
-                    <p class="card-text pl-4">Catholic University of Brasilia - Bachelor Degree in Computer Science</p>
-                </div>
-            </div>
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
 
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Work Experience</h3>
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item experience border-light">
-                            <p><strong>.Net Consultant</strong></p>
-                            <p><i>Datainfo - Linsper Group at Dinfor (Ministry of Foreign Affairs)</i></p>
-                            <p>August 2018 – Today</p>
-                            <p>
-                                Acting as a consultant for the .Net team. We maintain softwares that help the country in its foreign affairs politics. Systems to follow-up of technical cooperation projects, financial management, online reservation tickets, website content management, patrimony management and software to support selecting people around the world to participate in training programs in Brazil.
-                            </p>
-                            <p>
-                                Applied technologies C#, Asp.net, WebForms, MVC, Web API, web services, AngularJS, Git, Microsoft SQL Server.
-                            </p>
-                        </li>
-                        <li class="list-group-item experience border-light">
-                            <p><strong>Senior Systems Analyst (full stack developer)</strong></p>
-                            <p><i>Stefanini IT Solutions at the Brazilian Cooperation Agency (Ministry of Foreign Affairs) </i></p>
-                            <p>August 2010 – May 2018</p>
-                            <p>
-                                As a senior developer helping the team at Brazilian Cooperation Agency. Currently responsible for client business mapping, software design, specification and construction.    
-                            </p>
-                            <p>
-                                I was responsible for legacy projects built on ASP.Net Webforms, using ADO.Net Datasets and TableAdapters over a SQL Server database. 
-                            </p>
-                            <p>
-                                We also built projects using ASP.Net MVC and Entity Framework/LINQ. In another project, we adopted a SPA frontend, using AngularJs and Bootstrap, exchanging JSON data with the .Net Web API backend.
-                            </p>
-                        </li>
-                        <li class="list-group-item experience border-light">
-                            <p><strong>Web Developer and Systems Analyst</strong></p>
-                            <p><i>Microlog Informatica at the Brazilian Cooperation Agency (Ministry of Foreign Affairs)</i></p>
-                            <p>August 2005 to July 2010</p>
-                            <p>
-                                I was responsible for client business mapping, software design, specification and construction. Developing web applications with ASP.Net Web Forms, ADO.Net, C# and JQuery with an MS SQL Server database. We also used MS Visio as a modeling tool and UML notation to produce some documentation artifacts. 
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Certifications</h3>
-                    <div class="card-text pl-4">
-                        <p>PSM - Scrum.org Professional Scrum Master, 2019</p>
-                        <p>MCSD – Microsoft Certified Solution Developer: App Builder, 2016</p>
-                        <p>MCSD – Microsoft Certified Solution Developer: Web Applications, 2015</p>
-                        <p>MCAD – Microsoft Certified Application Developer, 2008</p>
-                    </div>                    
-                </div>
-            </div>
+<body>
+    <header>
+        <h1>Bin4IT</h1>
+        <p>Desenvolvimento de Software</p>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Serviços</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Contato</a>
+    </nav>
+    <main>
+        <h2>Bem-vindo à Bin4IT</h2>
+        <p>
+            Somos especialistas em desenvolvimento de software de alta qualidade, usando as mais recentes tecnologias
+            e melhores práticas de mercado.
+        </p>
+        <button>Entrar em contato</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bin4IT. Todos os direitos reservados.</p>
+    </footer>
+</body>
 
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Languages</h3>
-                    <div class="card-text pl-4">
-                        <p>Portuguese</p>
-                        <p>English</p>
-                    </div>                  
-                </div>
-            </div>
-        </div>
-
-        <footer class="py-5 " >
-            <div class="container"></div>
-        </footer>
-    </body>
 </html>
